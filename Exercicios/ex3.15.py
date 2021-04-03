@@ -1,8 +1,9 @@
 cigarros = int(input('Digite a quantide de cigarros por dia: '))
-anos = int(input('Quantos anos você fuma? '))
+anos = int(input('Quantos anos você fumou? '))
 
-dias = anos * 365
+diasquefuma = anos * 365
 minutos = cigarros * 10
+minutosperdidos = diasquefuma * minutos
 
 print(f'--- Considerando que você perde 10 minutos da vida fumando ---')
-print(f'Você já fumou {dias} dias')
+print(f'Você perdeu {minutosperdidos} minutos, que corresponde a {minutosperdidos / 1440:.2f} dias da sua vida fumando')
