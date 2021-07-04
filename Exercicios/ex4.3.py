@@ -1,11 +1,12 @@
 a = int(input('A: '))
 b = int(input('B: '))
+c = int(input('C: '))
 
-if a > b:
-    print("A é maior!")
+if a > b and a > c:
+    print('A é maior!')
 
-if b > a: 
-    print("B é maior!")
+if b > a and b > c:
+    print('B é maior!')
 
-if a == b:
-    print("Os valores são iguais!")
+if c > a and c > b:
+    print('C é maior!')
