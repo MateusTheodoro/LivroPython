@@ -28,7 +28,6 @@ if instalacao == 'R':
         print(f'Preço R${qtdkwh * 0.40:6.2f}    | RESIDENCIAL ATÉ 500')
     else:
         print(f'Preço R${qtdkwh * 0.65:6.2f}    | RESIDENCIAL ACIMA DE 500')
-
 elif instalacao == 'C':
     if qtdkwh <= 1000:
         print(f'Preço R${qtdkwh * 0.55:6.2f}    | COMERCIAL ATÉ 1000')
