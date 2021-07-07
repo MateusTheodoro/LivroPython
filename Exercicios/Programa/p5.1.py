@@ -1,0 +1,7 @@
+foguete = int(input('Você vai lançar o foguete. Digite a contagem regressiva: '))
+x = 1
+while x <= foguete:
+    print(foguete)
+    foguete = foguete - 1
+
+print('FOGO! ')
