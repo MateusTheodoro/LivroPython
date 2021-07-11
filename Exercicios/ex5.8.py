@@ -9,13 +9,14 @@ n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 
 x = 1
-while x <= n2:
-    print(x)
-    x = x + 1
+soma = 0
+
+while x <= n1 and n2:
+    soma = soma + n2
+    print(f'{x}, {soma}')
+    x += 1
 
 
-
-#
 # x = 1
 # while x <= 10:
 #     y = 1
