@@ -6,22 +6,13 @@ Lembre-se de que podemos entender a multiplicação de dois números como somas 
 Assim, 4x5 = 5+5+5+5 = 4+4+4+4+4
 """
 n1 = int(input('Digite um número: '))
-n2 = int(input('Digite outro número: '))
+n2 = int(input('Digite um número: '))
 
-x = 1
-soma = 0
+soma = n1
+contador = 1
+vezesprasomar = n2
 
-while x <= n1 and n2:
-    soma = soma + n2
-    print(f'{x}, {soma}')
-    x += 1
-
-
-# x = 1
-# while x <= 10:
-#     y = 1
-#     while y <= 5:
-#         print(f'{x}, {y}')
-#         y += 1
-#     x += 1
-# print('Acabou!')
+while contador < vezesprasomar:
+    soma = soma + n1
+    contador += 1
+print(soma)
