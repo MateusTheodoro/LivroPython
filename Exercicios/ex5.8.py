@@ -6,7 +6,7 @@ Lembre-se de que podemos entender a multiplicação de dois números como somas 
 Assim, 4x5 = 5+5+5+5 = 4+4+4+4+4
 """
 n1 = int(input('Digite um número: '))
-n2 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
 
 soma = n1
 contador = 1
