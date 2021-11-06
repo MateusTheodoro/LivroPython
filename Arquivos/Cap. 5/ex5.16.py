@@ -1,10 +1,7 @@
 """
 Contagem de cédulas
-
 Execute o Programa para os seguintes valores: 501, 745, 384, 2, 7 e 1
-
 """
-
 valor = float(input("Digite o valor a pagar: "))
 cedulas = 0
 atual = 50
@@ -17,6 +14,7 @@ while True:
 
     else:
         print(f"{cedulas} cédulas de R${atual}")
+        
         if apagar == 0:
             break
         if atual == 50:
