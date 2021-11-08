@@ -2,7 +2,8 @@
 Contagem de cédulas
 Execute o Programa para os seguintes valores: 501, 745, 384, 2, 7 e 1
 """
-valor = int(input("Digite o valor a pagar: "))
+# valor = int(input("Digite o valor a pagar: "))
+valor = 85
 cedulas = 0
 atual = 100
 apagar = valor
